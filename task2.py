@@ -68,20 +68,22 @@ for i in range(1, 6):
         continue  
     print(i)
 
-output:1
-2
-1
-2
-4
-5
-1
-2
-4
-5
-
-
 for i in range(1, 6):
     if i == 3:
         pass  
     else:
         print(i)
+
+output:
+1
+2
+1
+2
+4
+5
+1
+2
+4
+5
+
+
