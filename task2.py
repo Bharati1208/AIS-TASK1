@@ -1,0 +1,58 @@
+num = int(input("Enter a number:"))
+while num != 0:
+    if num % 2 == 0:
+        print(num,"is even.")
+    else:
+        print(num,"is odd")
+    num= int(input("Enter another number( or 0 to exit):"))
+    print("goodbye!")
+
+numbers_list = []
+i = 1
+while i <=5:
+    j=1
+    while j <= i:
+        print("* ",end="")
+        j += 1
+    print() 
+    i += 1
+    
+    
+    
+numbers_list = []
+num = 1
+while num <= 20:
+    numbers_list.append(num)
+    num += 1
+print(numbers_list)
+
+ 
+ 
+ 
+numbers = []
+num = 20
+while num >= 1:
+    numbers.append(num)
+    num -= 1
+print(numbers)
+
+
+
+
+
+for i in range(1, 6):
+    if i == 3:
+        break 
+    print(i)
+
+for i in range(1, 6):
+    if i == 3:
+        continue  
+    print(i)
+
+
+for i in range(1, 6):
+    if i == 3:
+        pass  
+    else:
+        print(i)
