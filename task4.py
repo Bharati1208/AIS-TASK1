@@ -2,7 +2,7 @@
 def max_number(a):
     for i in a:
         return max(a)
-a=[42,35,78,17,35,97,36,0,25]
+a=[22,33,67,41,23,90,44,55,22,67,21]
 max_number(a)
 
 
