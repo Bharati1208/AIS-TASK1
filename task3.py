@@ -126,7 +126,7 @@ even_add(number)
 
 def name():
     for i in range(1,36):
-        print(i,"Malleshwari")
+        print(i,"Bharati")
 name()
 
 
