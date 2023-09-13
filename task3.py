@@ -20,8 +20,8 @@ star(3)
 
 # Multiplication of three values
 
-def mult(a,b,c):
-    d=a*b*c
+def mult(x,y,z):
+    d=x*y*z
     return(d)
 mult(2,3,4)
 
